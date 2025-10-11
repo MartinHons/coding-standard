@@ -1,0 +1,17 @@
+{
+    "name": "martinhons/coding-standard",
+    "description": "Coding standard for all my PHP code. Based on slevomat/coding-standard.",
+	"type": "phpcodesniffer-standard",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1",
+        "slevomat/coding-standard": "^8.24",
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.1"
+    },
+    "minimum-stability": "stable",
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
