@@ -1,29 +1,28 @@
 # PHP Coding Standard
 
-A PHP coding standard based on slevomat/coding-standard.
+A PHP coding standard based on **slevomat/coding-standard**.
 
 ## Installation
-
-Install the package via Composer:
 
 ```bash
 composer require martinhons/coding-standard --dev
 ```
 
-## Usage
+## Basic Usage
 
-### Basic Usage
-
-After installation, you can run it directly:
-
+For check the coding standard for the `src` and `tests` directories run:
 ```bash
-vendor/bin/phpcs <YOUR_CODE_DIRECTORIES>
-vendor/bin/phpcbf <YOUR_CODE_DIRECTORIES>
+vendor/bin/phpcs src tests
 ```
 
-### Recommended Setup
+To automatically fix coding standard issues int the `src` and `tests` directories run:
+```bash
+vendor/bin/phpcbf src tests
+```
 
-For easier usage, add the following scripts to your `composer.json`:
+## Recommended Setup
+
+For easier usage you can add the following scripts to your `composer.json`:
 
 ```json
 {
@@ -34,7 +33,7 @@ For easier usage, add the following scripts to your `composer.json`:
 }
 ```
 
-Replace `<YOUR_CODE_DIRECTORIES>` with your actual source directories (e.g. `src tests`).
+Replace `<YOUR_CODE_DIRECTORIES>` with your code directory or directories.
 
 Then you can run:
 
