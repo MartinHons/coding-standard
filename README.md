@@ -27,8 +27,8 @@ For easier usage you can add the following scripts to your `composer.json`:
 ```json
 {
     "scripts": {
-        "cs": "phpcs <YOUR_CODE_DIRECTORIES>",
-        "csf": "phpcbf <YOUR_CODE_DIRECTORIES>"
+        "cs": "phpcs --standard=HonsStandard <YOUR_CODE_DIRECTORIES>",
+        "csf": "phpcbf --standard=HonsStandard <YOUR_CODE_DIRECTORIES>"
     }
 }
 ```
