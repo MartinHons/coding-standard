@@ -12,12 +12,12 @@ composer require martinhons/coding-standard --dev
 
 For check the coding standard for the `src` and `tests` directories run:
 ```bash
-vendor/bin/phpcs src tests
+vendor/bin/phpcs --standard=HonsStandard src tests
 ```
 
 To automatically fix coding standard issues int the `src` and `tests` directories run:
 ```bash
-vendor/bin/phpcbf src tests
+vendor/bin/phpcbf --standard=HonsStandard src tests
 ```
 
 ## Recommended Setup
