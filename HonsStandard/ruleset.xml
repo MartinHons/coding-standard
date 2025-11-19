@@ -34,6 +34,7 @@
         <exclude name="SlevomatCodingStandard.Classes.SuperfluousExceptionNaming"/>
         <exclude name="SlevomatCodingStandard.Classes.SuperfluousInterfaceNaming"/>
         <exclude name="SlevomatCodingStandard.Classes.SuperfluousTraitNaming"/>
+        <exclude name="SlevomatCodingStandard.Classes.ForbiddenPublicProperty"/>
 
         <exclude name="SlevomatCodingStandard.Commenting.DeprecatedAnnotationDeclaration"/>
         <exclude name="SlevomatCodingStandard.Commenting.DisallowCommentAfterCode"/>
@@ -54,6 +55,7 @@
         <exclude name="SlevomatCodingStandard.ControlStructures.RequireNullCoalesceEqualOperator"/>
         <exclude name="SlevomatCodingStandard.ControlStructures.RequireTernaryOperator"/>
         <exclude name="SlevomatCodingStandard.ControlStructures.RequireYodaComparison"/>
+        <exclude name="SlevomatCodingStandard.ControlStructures.EarlyExit"/>
 
         <exclude name="SlevomatCodingStandard.Exceptions.DisallowNonCapturingCatch"/>
         <exclude name="SlevomatCodingStandard.Exceptions.ReferenceThrowableOnly"/>
